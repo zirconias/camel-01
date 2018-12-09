@@ -18,7 +18,6 @@ public class User {
     @ApiModelProperty(value = "The ID of the user", required = true)
     private Integer id;
 
-
     @ApiModelProperty(value = "The name of the user", required = true)
     @NotNull
     @Size(min = 5, max = 10, groups = OptionalChecks.class)
