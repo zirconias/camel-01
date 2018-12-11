@@ -161,12 +161,12 @@
                     <allowInsecureRegistries>true</allowInsecureRegistries>
                 </configuration>
                 <executions>
-                    <execution>
+                    <!--<execution>
                         <phase>package</phase>
                         <goals>
                             <goal>build</goal>
                         </goals>
-                    </execution>
+                    </execution>-->
                 </executions>
             </plugin>
 
